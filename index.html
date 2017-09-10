@@ -1,14 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="socialApp">
+
 
 <head>
 	<meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>DevMtin</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css"></link>
+	<link href="https://fonts.googleapis.com/css?family=Lora|Open+Sans" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
 <body>
+	<div class="main">
+		<br/>
+		<div class="devMountain">
+			<table width="100%" height=10px>
+				<tr>
+					<td><img src="./images/icons/Search.svg" height="25px"></td>
+					<td>
+						<p align="center"><strong>DevMountain</strong></td>
+					<td align="right"><img src="./images/Icons/Ham.svg" height="25px"></td>
+				</tr>
+			</table>
+		</div>
 
-  
+		<hr class="topRule">
+
+		<ui-view>
+
+		</ui-view>
+		
+		<hr class="bottomRule">
+		<table class="viewFriends" width="80%">
+			<td>
+				<p align="left"><a ui-sref="friends-view">View Friends</a></p>
+			</td>
+			<td>
+				<p align="center"><a ui-sref="search">Find Friends</a></p>
+			</td>
+			<td>
+				<p align="right"><a ui-sref="update">Update Profile</a></p>
+			</td>
+			</tr>
+		</table>
+    <!--<section class="home-page-top-container">
+		        <footer>
+            <nav>
+                <ul>
+                    <li><a ui-sref="friendsView">View Friends</a></li>
+                    <li><a ui-sref="search">Find Friends</a></li>
+                    <li><a ui-sref="update">Update Profile</a></li>
+                </ul>
+            </nav>
+        </footer>
+    </section>-->
+	</div>
+	</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.js"></script>
+
+
+<script src="./js/app.js"></script>
+<script src="./js/services/mainService.js"></script>
+<script src="./js/controllers/MainCtrl.js"></script>
+<script src="./js/controllers/friendCtrl.js"></script>
+<script src="./js/controllers/profileCtrl.js"></script>
 </body>
+
 </html>

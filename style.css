@@ -1,0 +1,231 @@
+.home-page-top-container {
+    width: 100%;
+    height: 40vh;
+    min-height: 400px;
+    position: relative;
+    background: url('../../img/BG-Img.jpg') center no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+font-family: 'Lora';
+width: 80%;
+margin: 0 auto;
+display: flex;
+justify-content: space-around;
+flex-direction: column;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+}
+
+.profileInfo {
+margin-left: 50px;
+
+}
+
+.topRule {
+    color: #A9A9A9;
+}
+
+.bottomRule {
+    color: #A9A9A9;
+    width: 90%;
+}
+
+textarea {
+    resize: none;
+}
+
+.pictures {
+    margin: auto;
+}
+
+h1 {
+    font-size:38.4px;
+    line-height: 46px; 
+    color: #272727;
+}
+
+h2 {
+    font-size:28px;
+    line-height: 34px; 
+    color: #000000;
+}
+
+h3 {
+    font-size:28px;
+    line-height: 34px; 
+    color: #272727;
+}
+
+h4 {
+    font-size:19.8px;
+    line-height: 24px; 
+    color: #232323;
+}
+
+h5 {
+    font-size:16.8px;
+    line-height: 21px; 
+    color: #FFFFFF;
+}
+
+h6 {
+    font-size:16.8px;
+    line-height: 21px; 
+    color: #232323;
+}
+
+.fullNameUpdate {
+    font-size:16.8px;
+    line-height: 21px; 
+    color: #B6B6B6;
+}
+
+.devMountain {
+    font-size:16.8px;
+    line-height: 21px; 
+    color: #272727;
+}
+
+.fullName {
+    font-size:15.96px;
+    line-height: 19px; 
+    color: #B6B6B6;
+}
+
+.profileSettings {
+    font-size:15.96px;
+    line-height: 19px; 
+    color: #B6B6B6;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    padding: 20px; 
+}
+
+.profileSettings2 {
+    font-size:15.96px;
+    line-height: 19px; 
+    color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    padding: 20px; 
+    text-align: center;
+}
+
+.saveChanges {
+    font-size:13.44px;
+    line-height: 17px; 
+    color: #9A9A9A;
+    text-align: center;
+    width: 100%;
+    background-color: #00FFE9;
+    padding: 6px;
+    margin: 10px 0 10px 0;
+}
+
+.viewFriends {
+    font-family: 'Open Sans';
+    font-weight: bold;
+    font-size:13.2px;
+    line-height: 18px; 
+    margin: 0 auto;
+    color: #A9A9A9;
+}
+
+.addFriend {
+    font-size:13.18px;
+    line-height: 16px; 
+    color: #232323;
+    font-weight: bold;
+}
+
+.welcome {
+    text-align: center;
+    font-size:12.07px;
+    line-height: 14px; 
+    color: #232323;
+}
+
+.viewProfile {
+    font-size:5px;
+    line-height: 5px; 
+    color: red;
+}
+
+.loremIpsum {
+    font-family: 'Open Sans';
+    font-size:12px;
+    line-height: 14px; 
+    color: #000000;
+    text-align:justify;
+}
+
+.tagline {
+    font-family: 'Open Sans';
+    font-weight: 800;
+    font-size:10.2px;
+    line-height: 14px; 
+    color: #000000;
+    text-transform: uppercase;
+    text-align:justify;
+}
+
+.ascending {
+    font-size:6.6px;
+    line-height: 8px; 
+    color: #232323;
+}
+
+.backgroundTriangle {
+    position: absolute;
+    background: white;
+    top: 50px;
+    left: 0px;
+    height: 350px;
+    width: 350px;
+-webkit-clip-path: polygon(54% 4%, 1% 75%, 99% 88%);
+clip-path: polygon(54% 4%, 1% 75%, 99% 88%);
+}
+
+.backgroundTrianglePic {
+    position: absolute;
+    opacity: .2;
+    top: 50px;
+    left: 0px;
+    height: 350px;
+    width: 350px;
+-webkit-clip-path: polygon(54% 4%, 1% 75%, 99% 88%);
+clip-path: polygon(54% 4%, 1% 75%, 99% 88%);
+}
+
+.foregroundTriangle {
+    position: absolute;
+    background: #00FFE9;;
+    top: 170px;
+    left: 0px;
+    height: 350px;
+    width: 350px;
+-webkit-clip-path: polygon(96% 4%, 2% 18%, 60% 83%);
+clip-path: polygon(96% 4%, 2% 18%, 60% 83%);
+}
+
+.foregroundTrianglePic {
+    position: absolute;
+    opacity: .7;
+    top: 170px;
+    left: 0px;
+    height: 350px;
+    width: 350px;
+-webkit-clip-path: polygon(96% 4%, 2% 18%, 60% 83%);
+clip-path: polygon(96% 4%, 2% 18%, 60% 83%);
+}

@@ -1,0 +1,34 @@
+<div class="content">
+	<div class="col-sm-5 profileInfo">
+			<h1>Chis</h1>
+			<h1 align="right">Johnson</h1>
+
+			<p class="tagline">Some awesome tagline about you</p>
+			<br/>
+			<p class="loremIpsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi elit velit, faucibus vel sem lobortis, dignissim facilisis urna. Aliquam egestas dolor et vestibulum sagittis. Aenean in sagittis enim, in rhoncus turpis. Duis ac nisl aliquam, porttitor odio in, ullamcorper tellus. Donec pharetra vitae nulla et accumsan. </br>
+			</br>
+			accumsan ex turpis, eget molestie purus ullamcorper a. Aenean varius, neque vitae ornare ultricies, mauris dui efficitur risus, eget euismod lorem odio vitae dolor.</p>
+
+
+
+	</div>
+	
+	<div class="col-sm-7">
+				<div class="profileSettings2">
+Profile Settings 
+				</div>
+                <div class="profileSettings">
+					<input class="form-control" placeholder="Full Name" ng-model="user.name">
+					<br/>
+					<input class="form-control" placeholder="Tagline" ng-model="user.tagline">
+					<br/>
+					<input class="form-control" placeholder="Profile Image Url" ng-model="user.profileImage">
+					<br/>
+					<textarea class="form-control" placeholder="Bio" ng-model="user.bio" rows="8"></textarea>
+				</div>
+
+    <div class="profileSettings2">
+				<div ng-click="saveUser(user)">Save Changes</div>
+	</div>
+    </div>
+</div>
